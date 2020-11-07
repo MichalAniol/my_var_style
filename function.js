@@ -132,7 +132,7 @@ function toKebab(text) {
  * @param {string} text 
  */
 function toClear(text) {
-    return getTextArray(text).map(item => item.toLowerCase()).join();
+    return getTextArray(text).map(item => item.toLowerCase().replace(',', '').replace('-', '').replace('_', '')).join();
 }
 
 module.exports = {
