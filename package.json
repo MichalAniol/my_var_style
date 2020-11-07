@@ -10,6 +10,10 @@
     "categories": [
         "Formatters"
     ],
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/MichalAniol/my_var_style"
+    },
     "icon": "icon.png",
     "activationEvents": [
         "onCommand:extension.camelStyle",
