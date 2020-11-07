@@ -98,7 +98,7 @@ function activate(context) {
             })
         }
     )
-    let disposable5 = vscode.commands.registerCommand(
+    let disposable6 = vscode.commands.registerCommand(
         'extension.clearStyle',
         function() {
             const editor = vscode.window.activeTextEditor
