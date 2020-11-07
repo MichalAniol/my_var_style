@@ -2,7 +2,7 @@
     "name": "my_var_style",
     "displayName": "My Var Style",
     "description": "change variable style",
-    "version": "0.0.2",
+    "version": "0.0.3",
     "publisher": "aniol",
     "engines": {
         "vscode": "^1.20.0"
